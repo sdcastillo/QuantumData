@@ -33,3 +33,8 @@ To get the data dictionary for a data set, use `?dataset_name` such as `?custome
 |`auto_claim`| Automotive claims |
 |`boston`| Boston housing data set |
 |`bank_loans`| Credit data from UCI Machine Learning Repository |
+
+
+## Data Migration Notice
+
+All data has been migrated over to https://huggingface.co/supersam7
