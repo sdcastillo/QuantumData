@@ -1,18 +1,21 @@
-Package: ExamPAData
+Package: QuantumData
 Type: Package
-Title: Data Sets for Predictive Analytics Exam
+Title: Datasets for SOA Exam PA – Predictive Analytics
 Version: 0.5.2
 Authors@R: c(
     person("Guanglai", "Li", role = c("ctb")),
     person("Sam", "Castillo", email = "Sam@PredictiveInsightsAI.com", role = c("aut", "cre"))
 )
 Date: 2025-02-22
-Description: Contains all data sets for Exam PA: Predictive Analytics at 
-    <https://PredictiveInsightsAI.com/>.
+Description: Provides the complete collection of datasets used in Exam PA: Predictive Analytics
+    training materials and practice exams at Predictive Insights (<https://PredictiveInsightsAI.com/>).
+    Includes cleaned insurance, financial, marketing, time-series, and risk modeling datasets
+    designed to support GLM, tree-based models, time-series forecasting, unsupervised learning,
+    model validation, and business communication tasks — exactly as seen in the SOA Exam PA syllabus.
+Depends: R (>= 3.5.0)
+License: MIT + file LICENSE
 URL: https://github.com/sdcastillo/ExamPAData
 BugReports: https://github.com/sdcastillo/ExamPAData/issues
-License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.5.0)
 RoxygenNote: 7.1.1
