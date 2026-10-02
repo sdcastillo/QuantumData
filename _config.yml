@@ -1,0 +1,34 @@
+# SamWiki theme contract for this project site.
+# Setup follows GitHub's Jekyll theme guide:
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+#
+# Skin files copied from https://github.com/sdcastillo/sdcastillo.github.io (main):
+#   assets/css/style.scss
+#   _layouts/default.html
+#   _includes/head-custom.html
+#   _includes/samwiki-nav.html
+# Page front matter sets `samwiki: true`.
+
+title: QuantumData
+description: Datasets for actuaries practicing predictive analytics.
+remote_theme: pages-themes/cayman@v0.2.0
+show_downloads: false
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - news.md
+  - R
+  - man
+  - raw-data
+  - DESCRIPTION
+  - NAMESPACE
+  - LICENSE
+  - ExamPAData.Rproj
+  - .Rbuildignore
+  - Gemfile
+  - Gemfile.lock
+  - vendor
