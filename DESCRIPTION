@@ -4,7 +4,7 @@ Title: Datasets for SOA Exam PA – Predictive Analytics
 Version: 0.5.2
 Authors@R: c(
     person("Guanglai", "Li", role = c("ctb")),
-    person("Sam", "Castillo", email = "Sam@PredictiveInsightsAI.com", role = c("aut", "cre"))
+    person("Sam", "Castillo", email = "ExamPATutor@gmail.com", role = c("aut", "cre"))
 )
 Date: 2025-02-22
 Description: Provides the complete collection of datasets used in Exam PA: Predictive Analytics
